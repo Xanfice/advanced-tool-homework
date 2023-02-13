@@ -1,0 +1,110 @@
+:root {
+    --main-branding-color: #f95959;
+    --primary-color: #233142;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --link-colour: #455d7a;
+    --white-colour: #e3e3e3;
+  }
+  .navbar {
+    overflow: hidden;
+  }
+  body {
+    background: var(--white-colour);
+    font-family: sans-serif;
+    margin-top: 100px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+    color: var(--primary-color);
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    color: var(--main-branding-color);
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  .about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--main-branding-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .primary-link,
+  .secondary-link {
+    margin: 20px;
+    border-radius: 7px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .primary-link {
+    background: var(--main-branding-color);
+    box-shadow: var(--box-shadow);
+    color: var(--white-colour);
+  }
+  
+  .secondary-link {
+    background: var(--link-colour);
+    color: var(--main-branding-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  .primary-link:hover {
+    background: var(--link-colour);
+    color: var(--main-branding-color);
+    transition: ease-in-out 0.5s;
+  }
+  .secondary-link:hover {
+    background: var(--main-branding-color);
+    box-shadow: var(--box-shadow);
+    color: var(--white-colour);
+    transition: ease-in-out 0.5s;
+  }
+  .mt-5 a {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .img-fluid {
+    box-shadow: var(--box-shadow);
+  }
+  
